@@ -1,5 +1,5 @@
-//
-//
+#ifndef PIXEL_H
+#define PIXEL_H
 struct _pixel
 {
 	float r;
@@ -8,4 +8,5 @@ struct _pixel
 	int x;
 	int y;
 };
-typedef struct _pixl Pixel;
+typedef struct _pixel Pixel;
+#endif
